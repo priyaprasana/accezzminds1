@@ -1,0 +1,70 @@
+html {
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+p{
+    font-size: 1rem;
+}
+h2 {
+    font-size: 2.8rem;
+}
+.textSmall p {
+    font-size: small;
+}
+
+.textLightBlue {
+    color: rgb(93, 158, 229);
+}
+
+.bgLightBlue {
+    background-color: rgb(93, 158, 229);
+}
+
+.bgTransLight {
+    background-color: #dee2e6e3;
+}
+
+.textBlue {
+    color: #dee2e6;
+}
+
+.borderClr {
+    border-color: #4373a7;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+a {
+    color: #dee2e6;
+}
+
+.textDarkBlue {
+    color: rgb(4, 49, 100) !important;
+}
+
+.bgDarkBlue {
+    background-color: rgb(4, 49, 100);
+}
+
+.bgDarkBlueTrans {
+    background-color: rgb(4, 49, 100, 0.27);
+}
+
+.bgDarkBlue1 {
+    background-color: rgb(4, 56, 115);
+}
+
+.bgForm {
+    background-image: url('bg-form.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 657px;
+    filter: blur(5px);
+}
+

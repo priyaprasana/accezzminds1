@@ -1,0 +1,58 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 360px) {
+    .posVertBoard {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .posForm {
+        width: 100%;
+        position: absolute;
+        top: 160px;
+        right: 0;
+    }
+    .posHorBoard {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .posForm {
+        width: 100%;
+        position: absolute;
+        top: 295px;
+        right: 0;
+    }
+    .posHorBoard {
+        position: absolute;
+        bottom: 50px;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .posVertBoard {
+        width: 50%;
+        position: absolute;
+        top: 0;
+        right: 100px;
+    }
+    .posForm {
+        width: 50%;
+        position: absolute;
+        top: 150px;
+        right: 100px;
+    }
+    .posHorBoard {
+        position: absolute;
+        top: 535px;
+    }
+  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {  } */
